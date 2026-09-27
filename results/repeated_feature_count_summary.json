@@ -1,0 +1,6 @@
+[
+  {"feature_count": 20, "mean_pr_auc": 0.130945112550608, "std_pr_auc": 0.010465292090135206},
+  {"feature_count": 40, "mean_pr_auc": 0.14144508583637036, "std_pr_auc": 0.026196796078723026},
+  {"feature_count": 80, "mean_pr_auc": 0.13711575152737712, "std_pr_auc": 0.009736076247673305},
+  {"feature_count": "all", "mean_pr_auc": 0.16846740795163936, "std_pr_auc": 0.026320190204118313}
+]
