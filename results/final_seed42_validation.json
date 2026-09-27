@@ -1,0 +1,40 @@
+{
+  "split_random_state": 42,
+  "cv_random_state": 42,
+  "rf_random_state": 42,
+  "n_estimators": 500,
+  "train_n": 1253,
+  "train_fails": 83,
+  "holdout_n": 314,
+  "holdout_fails": 21,
+  "final_feature_count": 450,
+  "oof_pr_auc": 0.1790410450062922,
+  "threshold": 0.07172084647993687,
+  "threshold_rule": "train 5-fold OOF positive-score 30th percentile (target recall 70%)",
+  "holdout_default_0_5": {
+    "recall": 0.0,
+    "precision": 0.0,
+    "pr_auc": 0.23817870983765232,
+    "tp": 0,
+    "fp": 0,
+    "fn": 21,
+    "tn": 293,
+    "reinspection_rate": 0.0
+  },
+  "holdout_tuned": {
+    "recall": 0.9047619047619048,
+    "precision": 0.13970588235294118,
+    "pr_auc": 0.23817870983765232,
+    "tp": 19,
+    "fp": 117,
+    "fn": 2,
+    "tn": 176,
+    "reinspection_rate": 0.43312101910828027
+  },
+  "bootstrap_95_ci": {
+    "recall": {"low": 0.7619047619047619, "high": 1.0},
+    "precision": {"low": 0.11564625850340136, "high": 0.16529088306110495},
+    "pr_auc": {"low": 0.149733292005, "high": 0.4346359669492168},
+    "reinspection_rate": {"low": 0.37898089171974525, "high": 0.49044585987261147}
+  }
+}
